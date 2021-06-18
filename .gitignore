@@ -1,0 +1,18 @@
+# OSX Junk
+.DS_Store
+
+# test cache
+.cache/*
+tests/__pycache__/*
+*.pytest_cache/
+
+# Python
+__pycache__
+.ipynb_checkpoints
+.python-version
+
+# environment variables
+.env
+
+# large data files
+*.pkl
